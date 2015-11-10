@@ -12,7 +12,7 @@ $('nav a').click(function() {
 
 /* Sticky nav bar */
 
-$("#nav").sticky({ topSpacing: 0 });
+$(".nav").sticky({ topSpacing: 0 });
 
 /* zmiana koloru podczas doczepiania nav bara ON CONSTRUCTION
 
