@@ -2,7 +2,6 @@
 
 $('nav a').click(function() {
     if ($(this).parent().hasClass('selected')) {
-        $(this).parent().addClass('selected');
     }
     else {
         $(this).parent().addClass('selected');
@@ -10,24 +9,19 @@ $('nav a').click(function() {
     }
 });
 
-/* Sticky nav bar */
+
+
+/* STICKY NAV BAR */
 
 $(".nav").sticky({ topSpacing: 0 });
 
-/* zmiana koloru podczas doczepiania nav bara ON CONSTRUCTION
-
-            ON CONSTRUCTION
-
-$('#nav').on('sticky-start', function() {
-    $(this).css('background': 'black');
-});
-
-*/
+/* SLIDER */
 
 $(".slides").slick({
 	fade: true,
-        autoplay: true,
-        autoplaySpeed: 4000,
-        arrows: false,
-        dots: true
-    });
+    autoplay: true,
+    autoplaySpeed: 4000,
+    arrows: false,
+    dots: true
+});
+

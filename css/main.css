@@ -20,13 +20,14 @@ header {
 
 #header {
 	max-width: 100%;
-	background: rgba(0,0,0,0.3);
+	background: #3BCEFF;
 	font-family: 'Orbitron', sans-serif;
 	display: block;
 	font-size: 2em;
     text-shadow: -2px 3px 10px #000;
     min-height: 100%;
     text-align: center;
+    border-bottom: 2px solid;
 }
 
 div#content {
@@ -38,7 +39,7 @@ div#content {
 
 .nav {
 	
-	height: 40px;
+	
 	width: 100%;
 	background: white;
       color: black;
@@ -46,7 +47,7 @@ div#content {
       line-height: 1.6em;
       font-weight: bold;
       text-align: center;
-      padding: 10px;
+      
       text-shadow: 0 1px 1px rgba(0,0,0,.2);
       width:100%;
       box-sizing:border-box;
@@ -57,7 +58,6 @@ div#content {
 
 
 #secs {
-	/*background: rgba(40,220,120,0.5);*/
 	max-width: 100%;
 	height: 2000px;
 	
@@ -74,8 +74,6 @@ div#content {
 .nav li {
 	display: inline-block;
 	margin: 0px 10px 0 0;
-	height: 100%;
-
 }
 
 .nav ul {
@@ -86,8 +84,12 @@ div#content {
 }
 
 
-
 .selected a {
+	color: black;
+	border-bottom: solid #00BFFF;
+}
+
+.is-sticky .nav .selected a {
 	color: black;
 }
 
@@ -109,7 +111,7 @@ nav {
 }
 
 #sec2_2 {
-	background: #FF8000;
+	background: #FFA64D;
 	width: 100%;
 	height: 800px;
 }
@@ -139,7 +141,8 @@ nav {
 }
 
 .is-sticky .nav {
-	background-color: #00BFFF;
+	background-color: rgba(0,0,0,0.4);
+    box-shadow: -1px 5px 15px rgba(0,0,0,0.23);
 }
 
 .is-sticky .nav a {
@@ -157,9 +160,13 @@ nav {
 
 a:hover {
 	color: black;
-	text-decoration: underline;
+	border-bottom: solid #00BFFF;
 }
 
-.slides {
-	margin: 0 auto;
+
+
+li a {
+	margin: 0;
 }
+
+
