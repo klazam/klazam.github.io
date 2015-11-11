@@ -74,8 +74,8 @@ div#content {
 .nav li {
 	display: inline-block;
 	padding: 5px;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .nav ul {
