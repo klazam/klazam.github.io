@@ -165,15 +165,10 @@ a:hover {
 	border-bottom: solid #00BFFF;
 }
 
-
-
-li a {
-	margin: 0;
-}
-
 li a {
 	padding: 5px;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: -3px;
 }
 
