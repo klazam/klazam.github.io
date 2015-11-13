@@ -80,21 +80,6 @@ span {
 	font-size: 16px;
 }
 
-#slide1 {
-	background: rgba(131, 120,220,0.9);
-	height: 800px;
-}
-
-#slide2 {
-	background: #FFA64D;
-	height: 800px;
-}
-
-#slide3 {
-	background: #4ED98A;
-	height: 800px;
-}
-
 /*****************************************
 
 				HEADER
@@ -224,11 +209,24 @@ span {
 
 /*****************************************
 
-				EXPERCIENCE
+				SKILLS
 
 ******************************************/
 
+#slide1 {
+	background: rgba(131, 120,220,0.9);
+	height: 800px;
+}
 
+#slide2 {
+	background: #FFA64D;
+	height: 800px;
+}
+
+#slide3 {
+	background: #4ED98A;
+	height: 800px;
+}
 
 /*****************************************
 
