@@ -17,10 +17,10 @@ $(".nav").sticky({ topSpacing: 0 });
 
 /* SLIDER */
 
-$(".slides").slick({
+$(".skills").slick({
 	fade: true,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 2000,
     arrows: false,
     dots: true
 });
