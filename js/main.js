@@ -36,4 +36,4 @@ $(window).on('scroll', function () {
     $('.is-sticky .nav').css('transition', '1s');
 });
 });
-*
+*/
