@@ -25,3 +25,11 @@ $(".skills").slick({
     dots: true
 });
 
+$(window).resize(function() {
+    $('.is-sticky .nav').css('transition', '0s');
+});
+
+$(window).scroll(function() {
+    $('.is-sticky .nav').css('transition', '1s');
+});
+
