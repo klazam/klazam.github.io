@@ -234,12 +234,12 @@ span {
 
 #experience {
 	text-align: center;
-	height: 500px;
 }
 
 #experience p {
 	font-family: 'Pacifico', cursive;
 	font-size: 50px;
+	padding-bottom: 40px;
 	vertical-align: middle;
 }
 
