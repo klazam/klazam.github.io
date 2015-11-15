@@ -25,11 +25,15 @@ $(".skills").slick({
     dots: true
 });
 
-$(window).resize(function() {
+
+/* still testing
+$(window).click(function() {
+    $(window).on('resize', function () {
     $('.is-sticky .nav').css('transition', '0s');
 });
 
-$(window).scroll(function() {
+$(window).on('scroll', function () {
     $('.is-sticky .nav').css('transition', '1s');
 });
-
+});
+*
