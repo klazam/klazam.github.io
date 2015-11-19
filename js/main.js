@@ -48,9 +48,28 @@ $(function() {
       if (target.length) {
         $('html,body').animate({
           scrollTop: target.offset().top
-        }, 1000);
+        },1000);
         return false;
       }
     }
   });
+});
+
+/* If window is scrolled from the top of the page more than 300 pixels, 'to the top' button will appear */
+
+$(window).scroll(function () {
+        if ($(this).scrollTop() > 250) {
+            $('.toTheTop').fadeIn();
+        } else {
+            $('.toTheTop').fadeOut();
+        }
+    });
+
+/* 'to the top' button on click will move to the top of page in 0,6sec */
+
+$('.toTheTop').click(function () {
+    $("html, body").animate({
+        scrollTop: 0
+    }, 1000);
+    return false;
 });

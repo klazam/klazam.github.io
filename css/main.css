@@ -47,6 +47,27 @@ span {
 	font-weight: bold;
 }
 
+.toTheTop {
+	display: none;  
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    bottom: 20px;
+    right: 50px;  
+}
+
+.toTheTop img {
+	max-height: 100%;
+	max-width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.toTheTop:hover {
+	cursor: pointer;
+}
+
 /*****************************************
 
 				STICKY
