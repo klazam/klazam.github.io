@@ -70,6 +70,6 @@ $(window).scroll(function () {
 $('.toTheTop').click(function () {
     $("html, body").animate({
         scrollTop: 0
-    }, 1000);
+    }, 700);
     return false;
 });
