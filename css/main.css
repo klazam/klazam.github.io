@@ -11,6 +11,8 @@
 
 body {
 	font-family: 'Montserrat', sans-serif;
+    
+
 }
 
 h1 {
@@ -194,18 +196,24 @@ span {
 	text-align: justify;
 	margin-left: 4%;
 	margin-top: 10px;
+	margin-right: 4%;
 }
 
 #quote {
 	width: 100%;
-	background-color: rgba(0,0,0,0.7);
 	float: both;
 	text-align: center;
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	font-size: 1.2em;
-	color: white;
+	color: black;
+	font-weight: bold;
 	text-shadow: -4px 6px 8px #000;
+	background: url("http://www.myfreetextures.com/wp-content/uploads/2014/10/sky2.jpg") center center fixed no-repeat;
+	-webkit-background-size: cover !important;
+	-moz-background-size: cover !important;
+	-o-background-size: cover !important;
+	background-size: cover !important;
 }
 
 #profile_photo {
@@ -237,15 +245,15 @@ span {
 ******************************************/
 
 #slide1 {
-	background: rgba(131, 120,220,0.9);
+	background: rgba(0,0,0,0.2);
 }
 
 #slide2 {
-	background: #FFA64D;
+	background: rgba(0,0,0,0.5);
 }
 
 #slide3 {
-	background: #4ED98A;
+	background: rgba(0,0,0,0.8);
 }
 
 /*****************************************
@@ -312,3 +320,4 @@ footer img {
 	padding-top: 10px;
 	padding-bottom: 20px;
 }
+

@@ -22,20 +22,17 @@ $(".skills").slick({
     autoplay: true,
     autoplaySpeed: 2000,
     arrows: false,
-    dots: true
+    dots: true,
+    
 });
 
 
-/* still testing
-$(window).click(function() {
-    $(window).on('resize', function () {
+/* TESTING fixing transition to nav bar while resizing page TESTING 
+$(window).on('resize', function () {
     $('.is-sticky .nav').css('transition', '0s');
+    return $('.is-sticky .nav').css('transition', '1s');
 });
 
-$(window).on('scroll', function () {
-    $('.is-sticky .nav').css('transition', '1s');
-});
-});
 */
 
 /* SMOOTH SCROLLING */
@@ -58,12 +55,12 @@ $(function() {
 /* If window is scrolled from the top of the page more than 300 pixels, 'to the top' button will appear */
 
 $(window).scroll(function () {
-        if ($(this).scrollTop() > 250) {
-            $('.toTheTop').fadeIn();
-        } else {
-            $('.toTheTop').fadeOut();
-        }
-    });
+    if ($(this).scrollTop() > 250) {
+        $('.toTheTop').fadeIn();
+    } else {
+        $('.toTheTop').fadeOut();
+    }
+});
 
 /* 'to the top' button on click will move to the top of page in 0,6sec */
 
@@ -73,3 +70,14 @@ $('.toTheTop').click(function () {
     }, 700);
     return false;
 });
+
+$(window).resize(function() {
+  $('.is-sticky .nav').css('transition', '0s');
+});
+
+
+
+
+
+
+
