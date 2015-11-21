@@ -79,7 +79,6 @@ span {
 .is-sticky .nav {
 	background-color: rgba(0,0,0,0.4);
     box-shadow: -1px 5px 15px rgba(0,0,0,0.23);
-    
 }
 
 .is-sticky .nav a {
@@ -178,6 +177,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 	box-sizing:border-box;
 	z-index: 1000;
 	transition: 1s;
+	padding-top: 10px;
 }
 
 

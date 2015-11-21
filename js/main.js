@@ -78,6 +78,29 @@ $(window).resize(function() {
 
 
 
+$('#hamburger').click(function(){
+    $(this).toggleClass('open');
+  });
+
+/*
+
+Problem: Navbar zawsze na wierzchu
+Solution: Przycisk do chowania i pokazywania navbara
+
+on sticky append hamburger
+
+Dodac przycisk w nav barze
+  W momencie kliknieciam navbar sie chowa.
+  Przycisk sie zamienia w hamburgera
+  Na gorze strony pojawia sie staly navbar
+
+W momencie klikniecia hamburgera
+  hamburger zmienia sie w przycisk
+  pojawia sie stickybar
+  Na gorze strony znika staly navbar
+
+
+*/
 
 
 
