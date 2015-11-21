@@ -59,6 +59,7 @@ $('.toTheTop').click(function () {
 
 $('#hamburger').click(function(){
   $(this).toggleClass('open');
+  $('#hamburger span').toggleClass('black');
   $('.nav').fadeToggle();
 });
 
