@@ -9,12 +9,6 @@ $('nav a').click(function() {
     }
 });
 
-
-
-/* STICKY NAV BAR */
-
-$(".nav").sticky({ topSpacing: 0 });
-
 /* SLIDER */
 
 $(".skills").slick({
@@ -26,16 +20,6 @@ $(".skills").slick({
     
 });
 
-
-/* TESTING fixing transition to nav bar while resizing page TESTING 
-$(window).on('resize', function () {
-    $('.is-sticky .nav').css('transition', '0s');
-    return $('.is-sticky .nav').css('transition', '1s');
-});
-
-*/
-
-/* SMOOTH SCROLLING */
 
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
@@ -71,36 +55,14 @@ $('.toTheTop').click(function () {
     return false;
 });
 
-$(window).resize(function() {
-  $('.is-sticky .nav').css('transition', '0s');
+/* Hamburger */
+
+$('#hamburger').click(function(){
+  $(this).toggleClass('open');
+  $('.nav').fadeToggle();
 });
 
 
-
-
-$('#hamburger').click(function(){
-    $(this).toggleClass('open');
-  });
-
-/*
-
-Problem: Navbar zawsze na wierzchu
-Solution: Przycisk do chowania i pokazywania navbara
-
-on sticky append hamburger
-
-Dodac przycisk w nav barze
-  W momencie kliknieciam navbar sie chowa.
-  Przycisk sie zamienia w hamburgera
-  Na gorze strony pojawia sie staly navbar
-
-W momencie klikniecia hamburgera
-  hamburger zmienia sie w przycisk
-  pojawia sie stickybar
-  Na gorze strony znika staly navbar
-
-
-*/
 
 
 
