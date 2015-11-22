@@ -99,11 +99,11 @@ span {
 }
 
 .nav a:hover {
-	color: #9F9F9F;
+	color: #B8B8B8;
 }
 
 .nav .selected a {
-	color: black;
+	color: #B8B8B8;
 }
 
 /*****************************************
@@ -210,7 +210,7 @@ header {
 	color: black;
 	font-weight: bold;
 	text-shadow: -4px 6px 8px #000;
-	background: url("../img/sky2.jpg") center center fixed no-repeat;
+	background: url("../img/sky4.jpg") center center fixed no-repeat;
 	-webkit-background-size: cover !important;
 	-moz-background-size: cover !important;
 	-o-background-size: cover !important;
