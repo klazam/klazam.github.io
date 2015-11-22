@@ -27,7 +27,7 @@ $(function() {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
-        $('html,body').animate({
+        $('html,body').stop().animate({
           scrollTop: target.offset().top
         },1000);
         return false;
@@ -49,7 +49,7 @@ $(window).scroll(function () {
 /* 'to the top' button on click will move to the top of page in 0,6sec */
 
 $('.toTheTop').click(function () {
-    $("html, body").animate({
+    $("html, body").stop().animate({
         scrollTop: 0
     }, 700);
     return false;
@@ -60,7 +60,7 @@ $('.toTheTop').click(function () {
 $('#hamburger').click(function(){
   $(this).toggleClass('open');
   $('#hamburger span').toggleClass('black');
-  $('.nav').fadeToggle();
+  $('.nav').stop().fadeToggle();
 });
 
 
