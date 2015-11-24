@@ -345,6 +345,7 @@ header {
 #contact {
 	background: #17B2E6;
 	width: 100%;
+	font-size: 1.05em;
 }
 
 div.container {
@@ -365,7 +366,15 @@ div.container {
 }
 
 #contact h1 {
-	color: black;
+	color: white
+}
+
+.big {
+	font-size: 1.2em;
+}
+
+.container img {
+	width: 20px;
 }
 
 /*****************************************
