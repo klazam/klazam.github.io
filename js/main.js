@@ -62,7 +62,3 @@ $('#hamburger').click(function(){
   $('.nav').stop().fadeToggle();
 });
 
-
-
-
-
