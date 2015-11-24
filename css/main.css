@@ -19,7 +19,7 @@ body {
 h1 {
 	text-align: center;
 	padding-top: 70px;
-	margin-bottom: 40px;
+	padding-bottom: 40px;
 	font-size: 28px;
 	text-shadow: -2px 4px 15px #000000;
 }
@@ -118,7 +118,7 @@ span {
 ******************************************/
 
 .slick-dots {
-	bottom: 25px;
+	bottom: 50px;
 	font-size: 16px;
 }
 
@@ -160,7 +160,6 @@ header {
 }
 
 #header a:hover {
-	color: rgba(0,0,0,0.1);
 	border-bottom: none;
 }
 
@@ -252,6 +251,19 @@ header {
 
 ******************************************/
 
+#black {
+	background: black;
+}
+
+h1#black {
+	color: white;
+}
+
+#skills h2 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
 #slide1 {
 	background: #66D9FF;
 }
@@ -272,16 +284,6 @@ header {
 	color: black;
 }
 
-#const {
-	padding: 5%;
-	padding-top: 0;
-	margin-top: -70px;
-}
-
-#const img {
-	max-width: 100%;
-	opacity: 0.7;
-}
 
 /*****************************************
 
