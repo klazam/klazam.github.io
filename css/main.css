@@ -255,19 +255,19 @@ header {
 ******************************************/
 
 #slide1 {
-	background: rgba(0,0,0,0.2);
+	background: #66D9FF;
 }
 
 #slide2 {
-	background: rgba(0,0,0,0.5);
+	background: #99E5FF;
 }
 
 #slide3 {
-	background: rgba(0,0,0,0.8);
+	background: #17B2E6;
 }
 
 #slide4 {
-	background: rgba(0,0,0,0);
+	background: #B3ECFF;
 }
 
 #const {
@@ -341,7 +341,7 @@ header {
 ******************************************/
 
 #contact {
-	background: rgba(0,0,0,0.4);
+	background: #5391A6;
 	width: 100%;
 }
 
@@ -384,4 +384,8 @@ footer img {
 
 #slide4 div.container{
 	color: black;
+}
+
+#contact {
+	color: white;
 }
