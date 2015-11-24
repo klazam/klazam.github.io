@@ -12,12 +12,11 @@ $('nav a').click(function() {
 /* SLIDER */
 
 $(".skills").slick({
-	fade: true,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    arrows: false,
-    dots: true,
-    
+  fade: true,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  arrows: false,
+  dots: true,
 });
 
 
