@@ -349,7 +349,7 @@ header {
 }
 
 div.container {
-	width: 1200px;
+	max-width: 1200px;
 	text-align: center;
 	padding-bottom: 40px;
 	color: white;
