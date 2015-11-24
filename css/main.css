@@ -185,7 +185,6 @@ header {
 #about {
 	min-height: 450px;
 	max-width: 1200px;
-	padding-top: 40px;
 	margin-bottom: 50px;
 }
 
@@ -206,13 +205,9 @@ header {
 
 #quote {
 	width: 100%;
-	float: both;
 	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	font-size: 1.2em;
-	color: white;
-	font-weight: bold;
+	padding-top: 60px;
+	padding-bottom: 60px;
 	text-shadow: -4px 6px 8px #000;
 	background: url("../img/sky.jpg") center center fixed repeat;
 	-webkit-background-size: cover !important;
@@ -222,6 +217,9 @@ header {
 }
 
 #quote p {
+	font-size: 1.2em;
+	color: white;
+	font-weight: bold;
 	padding-right: 10px;
 	padding-left: 10px;
 }
@@ -231,7 +229,7 @@ header {
 	max-width: 250px;
 	float: right;
 	border-radius: 30px;
-	margin-top: 30px;
+	margin-top: 100px;
 	margin-right: 20px;
 	margin-left: 3%;
 	margin-bottom: 100px;
@@ -259,15 +257,19 @@ header {
 }
 
 #slide2 {
-	background: #99E5FF;
-}
-
-#slide3 {
 	background: #17B2E6;
 }
 
+#slide3 {
+	background: #66D9FF;
+}
+
 #slide4 {
-	background: #B3ECFF;
+	background: #17B2E6;
+}
+
+#slide4 div.container{
+	color: black;
 }
 
 #const {
@@ -341,7 +343,7 @@ header {
 ******************************************/
 
 #contact {
-	background: #5391A6;
+	background: #17B2E6;
 	width: 100%;
 }
 
@@ -362,6 +364,10 @@ div.container {
 	font-weight: bold;
 }
 
+#contact h1 {
+	color: black;
+}
+
 /*****************************************
 
 				FOOTER
@@ -380,12 +386,4 @@ footer img {
 	padding: 3px;
 	padding-top: 10px;
 	padding-bottom: 20px;
-}
-
-#slide4 div.container{
-	color: black;
-}
-
-#contact {
-	color: white;
 }
