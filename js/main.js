@@ -17,6 +17,7 @@ $(".skills").slick({
   autoplaySpeed: 2000,
   arrows: false,
   dots: true,
+  adaptiveHeight: true
 });
 
 

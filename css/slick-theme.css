@@ -95,7 +95,7 @@
 
 .slick-next
 {
-    right: -25px;
+    right: 25px;
 }
 [dir='rtl'] .slick-next
 {
@@ -120,13 +120,13 @@
 .slick-dots
 {
     position: absolute;
-    bottom: -45px;
+    bottom: 0px;
 
     display: block;
 
     width: 100%;
     padding: 0;
-
+    margin-bottom: -25px;
     list-style: none;
 
     text-align: center;

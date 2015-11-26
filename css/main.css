@@ -35,6 +35,9 @@ a {
 
 a:hover {
 	color: rgba(0,0,0,0.1);
+}
+
+.nav a:hover {
 	border-bottom: solid #00BFFF;
 }
 
@@ -357,9 +360,6 @@ div.container {
 	color: white;
 }
 
-.container a:before {
-	background: url('twitter.png');
-}
 
 .container a:hover {
 	color: black;
