@@ -14,7 +14,7 @@ $('nav a').click(function() {
 $(".skills").slick({
   fade: true,
   autoplay: true,
-  autoplaySpeed: 2000,
+  autoplaySpeed: 4000,
   arrows: false,
   dots: true,
   adaptiveHeight: true

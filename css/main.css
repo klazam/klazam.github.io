@@ -258,39 +258,53 @@ header {
 
 ******************************************/
 
-#black {
-	background: black;
+.umiej {
+	background: rgb(25,25,25);
+	padding-bottom: 70px;
 }
 
-h1#black {
+h1.umiej {
 	color: white;
 }
 
-#skills h2 {
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
-
-#slide1 {
+.layout1 {
 	background: #66D9FF;
 }
 
-#slide2 {
+.layout2 {
 	background: #17B2E6;
 }
 
-#slide3 {
-	background: #66D9FF;
+.layout3 {
+	background: #30cfeF;
 }
 
-#slide4 {
-	background: #17B2E6;
+.lewa {
+	font-size: 50px;
+	color: white;
+	display: block;
+	max-width: 350px;
+	float: left;
+	margin-top: 60px;
+	margin-right: 60px;
+	margin-left: 30px;
+	margin-bottom: 60px;
+	line-height: 50px;
+	font-weight: bold;
+	text-shadow: -2px 4px 15px #000000;
 }
 
-#slide4 div.container{
+.prawa {
 	color: black;
+	padding: 20px;
+	padding-top: 40px;
+	font-size: 18px;
 }
 
+.skills .container img {
+	max-width: 500px;
+	padding-bottom: 30px;
+}
 
 /*****************************************
 
@@ -370,7 +384,7 @@ div.container {
 	font-size: 1.2em;
 }
 
-.container img {
+#contact .container img {
 	width: 20px;
 }
 
