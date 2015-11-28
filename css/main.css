@@ -258,6 +258,10 @@ header {
 
 ******************************************/
 
+.skills {
+	min-height: 500px;
+}
+
 .umiej {
 	background: rgb(25,25,25);
 	padding-bottom: 70px;
@@ -302,7 +306,8 @@ h1.umiej {
 }
 
 .skills .container img {
-	max-width: 500px;
+	max-height: 300px;
+	
 	padding-bottom: 30px;
 }
 
