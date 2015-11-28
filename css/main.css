@@ -208,10 +208,10 @@ header {
 #quote {
 	width: 100%;
 	text-align: center;
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 80px;
+	padding-bottom: 80px;
 	text-shadow: -4px 6px 8px #000;
-	background: url("../img/sky.jpg") center center fixed repeat;
+	background: url("http://dziecisawazne.pl/wp-content/uploads/2015/01/deszcz.jpg") center center fixed repeat;
 	-webkit-background-size: cover !important;
 	-moz-background-size: cover !important;
 	-o-background-size: cover !important;
@@ -220,7 +220,7 @@ header {
 
 #quote p {
 	font-size: 1.2em;
-	color: white;
+	color: black;
 	font-weight: bold;
 	padding-right: 10px;
 	padding-left: 10px;
@@ -315,7 +315,7 @@ h1#black {
 }
 
 .effect {
-	-webkit-filter: grayscale(100%);
+	-webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -o-filter: grayscale(100%); -ms-filter: grayscale(100%); filter: grayscale(100%);
 	-webkit-transition: all .5s ease;
 	-moz-transition: all .5s ease;
 	-o-transition: all .5s ease;
@@ -324,12 +324,12 @@ h1#black {
 }
  
 .effect:hover {
-	-webkit-filter: grayscale(0%);
+	-webkit-filter: grayscale(0%); -moz-filter: grayscale(0%); -o-filter: grayscale(0%); -ms-filter: grayscale(0%); filter: grayscale(0%);
 	
 }
 
 .effect img {
-	-webkit-filter: blur(2px);
+	-webkit-filter: blur(2px); -moz-filter: blur(2px); -o-filter: blur(2px); -ms-filter: blur(2px); filter: blur(2px);
 	-webkit-transition: all .5s ease;
 	-moz-transition: all .5s ease;
 	-o-transition: all .5s ease;
@@ -338,7 +338,7 @@ h1#black {
 }
 
 .effect img:hover {
-	-webkit-filter: blur(0px);
+	-webkit-filter: blur(0px); -moz-filter: blur(0px); -o-filter: blur(0px); -ms-filter: blur(0px); filter: blur(0px);
 }
 
 /*****************************************
