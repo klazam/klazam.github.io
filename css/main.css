@@ -10,7 +10,7 @@
 }
 
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 	line-height: 30px;
     background: SeaShell;
 
@@ -191,6 +191,7 @@ header {
 #about {
 	max-width: 1200px;
 	margin-bottom: 50px;
+    
 }
 
 #about a img {
@@ -237,7 +238,7 @@ header {
 	max-width: 250px;
 	float: right;
 	border-radius: 30px;
-	margin: 100px 10px 80px 10px;
+	margin: 100px 10px 0 10px;
 	/* MIROR GRADIENT PROFILE PHOTO */
     box-reflect:below 0px linear-gradient(to bottom,
 		transparent 50%,
@@ -249,6 +250,7 @@ header {
 		rgba(255,255,255,0.1) 80%,
 		rgba(255,255,255,0.6) 100%,
 		transparent 0%);
+	overflow: auto
 }
 
 /*****************************************
@@ -408,4 +410,80 @@ footer img {
 	padding-bottom: 20px;
 }
 
+/*************************** MEDIA QUERY ***************************/
 
+@media (max-width: 1000px) {
+	#experience div {
+		width: 45%; 
+		display: inline-block;
+		padding: 0 1.5% 50px 1.5%;
+		box-sizing:border-box;
+	}
+	#header a img {
+		max-width: 10%;
+		padding: 4%;
+	}
+}
+
+
+
+@media (max-width: 700px) {
+	.lewa {
+		float: none;
+		max-width: 100%;
+		text-align:center;
+		margin: 20px 20px;
+	}
+	.prawa {
+		color: black;
+		padding: 20px;
+	}
+	#header a img {
+		max-width: 70px;
+		padding: 28px;
+	}
+}
+
+
+
+
+
+@media (max-width: 480px) {
+
+	#profile_photo {
+
+	border-radius: 50%;
+		float: none;
+		max-width: 100%;
+		margin: 0 auto;
+		padding: 50px;
+		text-align:center;
+		box-reflect:none;
+		-webkit-box-reflect: none;
+		box-sizing:border-box;
+	}
+
+	#about h1 {
+		padding-top: 0;
+	}
+
+	.skills .container img {
+		max-height: 300px;
+		max-width: 100%;
+		padding: 15px;
+		box-sizing:border-box;
+		padding-bottom: 30px;
+	}
+
+	.lewa {
+		float: none;
+	}
+
+	#experience div {
+		width: 100%; 
+		display: block;
+		padding: 0 1.5% 50px 1.5%;
+		box-sizing:border-box;
+	}
+
+}
