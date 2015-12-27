@@ -435,12 +435,18 @@ footer img {
 		margin: 20px 20px;
 	}
 	.prawa {
-		color: black;
 		padding: 20px;
 	}
 	#header a img {
 		max-width: 70px;
 		padding: 28px;
+	}
+	.skills .container img {
+		max-height: 300px;
+		max-width: 100%;
+		padding: 15px;
+		box-sizing:border-box;
+		padding-bottom: 30px;
 	}
 }
 
@@ -465,18 +471,6 @@ footer img {
 
 	#about h1 {
 		padding-top: 0;
-	}
-
-	.skills .container img {
-		max-height: 300px;
-		max-width: 100%;
-		padding: 15px;
-		box-sizing:border-box;
-		padding-bottom: 30px;
-	}
-
-	.lewa {
-		float: none;
 	}
 
 	#experience div {
