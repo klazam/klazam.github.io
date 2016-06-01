@@ -63,3 +63,6 @@ $('#hamburger').click(function(){
   $('.nav').stop().fadeToggle();
 });
 
+function wylaczModal() {
+  document.getElementsByClassName("modal")[0].remove();
+}
